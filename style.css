@@ -1,0 +1,175 @@
+body {
+    background-image: url(img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 40px;
+}
+
+.container-fluid {
+    background-color: rgba(203, 224, 243, 0.699);
+    padding: 30px 40px 30px 20px;
+    border-radius: 20px;
+}
+
+i {
+    background-color: rgba(132, 152, 181, 0.33);
+    border-radius: 20px;
+    padding: 10px 50px 10px 10px;
+    margin: 4%;
+}
+
+.w {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 4vw;
+    font-weight: bolder;
+}
+
+.f {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2vw;
+    font-weight: bolder;
+}
+
+hr {
+    border: solid 3px;
+    color: blue;
+    width: 60%;
+    margin: 0 auto;
+}
+
+.l, .i {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3vw;
+}
+
+.l {
+    margin-left: 10%;
+}
+
+.i {
+    margin-left: 5px;
+}
+
+.date {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3vw;
+    display: flex;
+    justify-content: center;
+}
+
+.day {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 2vw;
+    display: flex;
+    justify-content: center;
+}
+
+img {
+    width: 70%;
+    margin: 0 auto;
+    display: block;
+}
+
+.p {
+    margin-left: 40px;
+}
+
+.t {
+    font-size: 15vw;
+}
+
+span {
+    font-size: x-large;
+}
+
+footer {
+    margin: 10px;
+    color: beige;
+    font-size: 1vw;
+}
+
+@media (max-width: 768px) {
+    .w {
+        font-size: 6vw;
+    }
+
+    .f {
+        font-size: 4vw;
+    }
+
+    .l {
+        font-size: 5vw;
+        margin-left: 5%;
+    }
+
+    .i {
+        font-size: 4vw;
+        margin-left: 0;
+    }
+
+    .date {
+        font-size: 5vw;
+    }
+
+    .day {
+        font-size: 4vw;
+    }
+
+    img {
+        width: 80%;
+    }
+
+    .t {
+        font-size: 10vw;
+    }
+
+    footer {
+        font-size: 1.2rem;
+        color: beige;
+        font-size: 1vw;
+    }
+}
+
+@media (max-width: 480px) {
+    .w {
+        font-size: 8vw;
+    }
+
+    .f {
+        font-size: 5vw;
+    }
+
+    .l {
+        font-size: 6vw;
+        margin-left: 0;
+    }
+
+    .i {
+        font-size: 5vw;
+    }
+
+    .date {
+        font-size: 6vw;
+    }
+
+    .day {
+        font-size: 5vw;
+    }
+
+    img {
+        width: 90%;
+    }
+
+    .t {
+        font-size: 12vw;
+    }
+
+    footer {
+        font-size: 1rem;
+        color: beige;
+        font-size: 1vw;
+    }
+}
